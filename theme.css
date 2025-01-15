@@ -1,4 +1,57 @@
+/* @settings
 
+name: Nord by Nordwest
+id: nxno-style
+settings:
+
+# Tasks :: Options
+
+-
+    id: nxno-status-bar-header
+    title: Task Icon Options
+    description: Select Task Icons
+    type: heading
+    level: 2
+    collapsed: false
+-
+    id: theme-alternative-checkboxes
+    title: Task Icon Set
+    type: variable-select
+    default: Default Theme Set
+    options:
+    -
+        label: Default Theme Set
+        value: enabled
+    -
+        label: Reference Set (Created by Damian Korcz)
+        value: reference
+    -
+        label: Disable Set
+        value: disabled
+
+# Credits
+
+-
+    id: nxno-support
+    title: Support Nord by Nordost
+    description: If you like the theme, here are some ways to support development
+    type: heading
+    level: 1
+    collapsed: true
+-
+    id: nxno-url-star-repo
+    title: Star the Theme on GitHub
+    description: "[https://github.com/namtrah/nxno](https://github.com/namtrah/nxno)"
+    type: info-text
+    markdown: true
+-
+    id: nxno-url-submit-issue
+    title: Submit an Issue on GitHub
+    description: "[https://github.com/namtrah/nxno/issues](https://github.com/namtrah/nxno/issues)"
+    type: info-text
+    markdown: true
+
+*/
 :root
 {
     --dark0_x:  46,52,64; /* #2e3440 */
